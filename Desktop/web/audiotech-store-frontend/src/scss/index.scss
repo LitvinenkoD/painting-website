@@ -1,0 +1,248 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+
+:root{
+
+  --margin-unit: 4px;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --font-size-h1-desktop: 3.5rem;             // 56px
+  --font-size-h2-desktop: 2.5rem;             // 40px
+  --font-size-h3-desktop: 2rem;               // 32px
+  --font-size-h4-desktop: 1.75rem;            // 28px
+  --font-size-h5-desktop: 1.5rem;             // 24px
+  --font-size-h6-desktop: 1.125rem;           // 18px
+  --font-size-overline-desktop: 0.875rem;     // 14px
+  --font-size-subtitle-desktop: 0.8125rem;    // 13px
+
+  --font-size-body-desktop: 0.9375rem;        // 15px
+  --font-size-general-button-text-: 0.8125rem;// 13px
+  --font-size-navlink-desktop: 0.8125rem;    // 13px
+
+
+  --font-size-h1-mobile: 2.25rem;
+  --font-size-h2-mobile: 1.75rem;             
+  --font-size-h3-mobile: 2rem;               // 32px
+  --font-size-h4-mobile: var(--font-size-h4-desktop);
+  --font-size-h5-mobile: 1.5rem;             // 24px
+  --font-size-h6-mobile: 0.9375rem;
+  --font-size-overline-desktop: 0.875rem;     // 14px
+  --font-size-subtitle-mobile: var(--font-size-subtitle-desktop);
+
+
+
+
+  
+  --h1-line-height-desktop: 3.625rem;
+  --h2-line-height-desktop: 2.75rem;
+  --h3-line-height-desktop: 2.25rem;
+  --h4-line-height-desktop: 2.375rem;
+  --h5-line-height-desktop: 2.0625rem;
+  --h6-line-height-desktop: 1.5rem;
+  --overline-line-height-desktop: 1.1875rem;
+  --subtitle-line-height-desktop: 1.5625rem;
+  --body-line-height-desktop: 1.5625rem;
+  --navlink-line-height-desktop: 1.5625rem;
+
+  
+  
+  --h1-line-height-mobile: 2.5rem;
+  --h2-line-height-mobile: normal;
+  --h4-line-height-mobile: var(--h4-line-height-desktop);
+  
+
+  
+  
+  --h1-letter-spacing-desktop: 0.125rem;
+  --h2-letter-spacing-desktop: 0.09375rem;
+  --h3-letter-spacing-desktop: 0.071875rem;
+  --h4-letter-spacing-desktop: 0.125rem;
+  --h5-letter-spacing-desktop: 0.10625rem;
+  --h6-letter-spacing-desktop: 0.08125rem;
+  --overline-letter-spacing-desktop: 0.625rem;
+  --subtitle-letter-spacing-desktop: 0.05806rem;
+  --body-letter-spacing-desktop: undefined;
+  --general-button-text-letter-spacing: 0.0625rem;
+  --navlink-letter-spacing-desktop: 0.0625rem;
+
+
+  --h1-letter-spacing-mobile: 0.08038rem;
+  --h1-letter-spacing-mobile: 0.0625rem;
+  --h4-letter-spacing-mobile: var(--h4-letter-spacing-desktop);
+  --h6-letter-spacing-mobile: 0.06694rem;
+
+
+
+
+
+
+  
+  --color-orangebrown: #D87D4A;
+  --color-orangebrown-hover: #fbaf85;
+  --color-black-900: #000000;
+  --color-black-700: #101010;
+  --color-white-500: #F1F1F1;
+  --color-white-300: #FAFAFA;
+  --color-white-100: #FFFFFF;
+  --color-grey-500: #4C4C4C;
+
+  --wrapper-max-width: 1110px;
+  --wrapper-inline-padding: 24px;
+
+  --standard-border-radius: 8px;
+  --ui-transition-time: 100ms;
+
+  --navbar-height: 90px;
+
+
+  --z-index-low-plus: -1;
+  --z-index-lowered: 0;
+  --z-index-standard: 1;
+
+}
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+// Utility classes
+
+.wrapper{
+  margin: 0 auto;
+  max-width: var(--wrapper-max-width);
+  padding-inline: var(--wrapper-inline-padding);
+}
+
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.even-columns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+// Typography helper classes
+
+.text-overline{
+  font-size: var(--font-size-overline-desktop);
+  line-height: var(--overline-line-height-desktop);
+  letter-spacing: var(--overline-letter-spacing-desktop);
+  font-weight: var(--font-weight-regular);
+}
+
+.text-H1{
+  font-size: var(--font-size-h1-mobile);
+  line-height: var(--h1-line-height-mobile);
+  letter-spacing: var(--h1-letter-spacing-mobile);
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 475px) {
+  .text-H1{
+    font-size: var(--font-size-h1-desktop);
+    line-height: var(--h1-line-height-desktop);
+    letter-spacing: var(--h1-letter-spacing-desktop);
+  }
+}
+
+.text-H2{
+  font-size: var(--font-size-h2-mobile);
+  line-height: var(--h2-line-height-mobile);
+  letter-spacing: var(--h2-letter-spacing-mobile);
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 475px) {
+  .text-H2{
+    font-size: var(--font-size-h2-desktop);
+    line-height: var(--h2-line-height-desktop);
+    letter-spacing: var(--h2-letter-spacing-desktop);
+  }
+}
+
+.text-H4{
+  font-size: var(--font-size-h4-mobile);
+  line-height: var(--h4-line-height-mobile);
+  letter-spacing: var(--h4-letter-spacing-mobile);
+  font-weight: var(--font-weight-bold);
+}
+
+@media screen and (min-width: 475px) {
+  .text-H4{
+    font-size: var(--font-size-h4-desktop);
+    line-height: var(--h4-line-height-desktop);
+    letter-spacing: var(--h4-letter-spacing-desktop);
+  }
+}
+
+.text-H6{
+  font-size: var(--font-size-h6-mobile);
+  letter-spacing: var(--h6-letter-spacing-mobile);
+}
+
+@media screen and (min-width: 475px) {
+  .text-H6{
+    font-size: var(--font-size-h6-desktop);
+    letter-spacing: var(--h6-letter-spacing-desktop);
+  }
+}
+
+
+.text-body-text{
+  font-size: var(--font-size-body-desktop);
+  line-height: var(--body-line-height-desktop);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-navlink{
+  font-size: var(--font-size-navlink-desktop);
+  line-height: var(--navlink-line-height-desktop);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--navlink-letter-spacing-desktop);
+}
+
+
+
+
+
+.text-subtitle{
+  font-size: var(--font-size-subtitle-mobile);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--subtitle-letter-spacing-mobile);
+}
+
+@media screen and (min-width: 475px) {
+  .text-subtitle{
+    font-size: var(--font-size-subtitle-desktop);
+    letter-spacing: var(--subtitle-letter-spacing-desktop);
+  }
+}
+
+
+.general-button-text{
+  font-size: var(--font-size-subtitle-desktop);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--general-button-text-letter-spacing);
+}
+
+
+
+@media screen and (min-width: 800px) {
+  :root{
+    --navbar-height: 96px;
+  }
+}

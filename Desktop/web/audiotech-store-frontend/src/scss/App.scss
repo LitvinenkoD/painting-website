@@ -1,0 +1,35 @@
+body{
+  background-color: var(--color-white-300);
+}
+
+
+// General app styles
+
+
+.text-color-white{
+  color: var(--color-white-100);
+}
+
+.text-color-black{
+  color: var(--color-black-900);
+}
+
+.text-color-orangebrown{
+  color: var(--color-orangebrown);
+}
+
+.opacity-05{
+  opacity: .5;
+}
+
+.opacity-075{
+  opacity: .75;
+}
+
+.font-bold{
+  font-weight: var(--font-weight-bold);
+}
+
+a{
+  text-decoration: none;
+}

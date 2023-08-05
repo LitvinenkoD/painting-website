@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/painting-website/static/css/main.41e275a3.css",
+    "main.js": "/painting-website/static/js/main.59963a1d.js",
+    "static/media/hero-desktop.png": "/painting-website/static/media/hero-desktop.be39839329e6fb1c3465.png",
+    "static/media/hero-tablet.png": "/painting-website/static/media/hero-tablet.a1903b188cd64e928559.png",
+    "index.html": "/painting-website/index.html",
+    "main.41e275a3.css.map": "/painting-website/static/css/main.41e275a3.css.map",
+    "main.59963a1d.js.map": "/painting-website/static/js/main.59963a1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41e275a3.css",
+    "static/js/main.59963a1d.js"
+  ]
+}

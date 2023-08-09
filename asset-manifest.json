@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/painting-website/static/css/main.ae13fa7e.css",
-    "main.js": "/painting-website/static/js/main.69bdf158.js",
-    "static/media/hero-desktop.png": "/painting-website/static/media/hero-desktop.e58b8486e4fbf4eee354.png",
-    "static/media/hero-tablet.png": "/painting-website/static/media/hero-tablet.9ad9dede3116a89329b5.png",
-    "index.html": "/painting-website/index.html",
-    "main.ae13fa7e.css.map": "/painting-website/static/css/main.ae13fa7e.css.map",
-    "main.69bdf158.js.map": "/painting-website/static/js/main.69bdf158.js.map"
+    "main.css": "/static/css/main.c2c6ccca.css",
+    "main.js": "/static/js/main.26f68856.js",
+    "static/media/hero-desktop-modified.png": "/static/media/hero-desktop-modified.b13d32767a9c552b4c34.png",
+    "static/media/hero-tablet.png": "/static/media/hero-tablet.a1903b188cd64e928559.png",
+    "index.html": "/index.html",
+    "main.c2c6ccca.css.map": "/static/css/main.c2c6ccca.css.map",
+    "main.26f68856.js.map": "/static/js/main.26f68856.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae13fa7e.css",
-    "static/js/main.69bdf158.js"
+    "static/css/main.c2c6ccca.css",
+    "static/js/main.26f68856.js"
   ]
 }

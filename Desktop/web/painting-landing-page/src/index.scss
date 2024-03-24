@@ -1,0 +1,299 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+:root{
+
+  --margin-unit: 4px;
+
+  --font-weight-bold: 700;
+  --font-weight-semibold: 600;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
+
+
+  --font-size-h1-desktop: 3.5rem;   
+  --font-size-h2-desktop: 2.5rem;         
+  --font-size-h3-desktop: 2rem;
+
+
+  --font-size-h1-mobile: 2.25rem;
+  --font-size-h2-mobile: 1.75rem;             
+  --font-size-h3-mobile: 1.5rem;               
+  
+  
+
+  --color-black: #211F1E;
+  --color-black-75: #565453;
+  --color-button-yellow: #FFEECA;
+  --color-error-red: #E33A30;
+  --color-success-green: #296B3F;
+
+
+  --color-service-1: #FAE3DE;
+  --color-service-2: #FFE9D0;
+  --color-service-3: #49577F;
+  --color-service-4: #737687;
+
+  --wrapper-viewport-width: 1110px;
+  --wrapper-viewport-width: 1300px;
+  --wrapper-inline-padding: 16px;
+  --wrapper-max-width: calc(var(--wrapper-viewport-width) + 2 * var(--wrapper-inline-padding));
+
+  --standard-border-radius: 8px;
+  --ui-transition-time: 500ms;
+
+  --header-height: 60px
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+
+// Utility classes
+
+.wrapper{
+  margin: 0 auto;
+  max-width: var(--wrapper-max-width);
+  padding-inline: var(--wrapper-inline-padding);
+}
+
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-container-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// Typography
+
+.section-title-text{
+  font-size: 1.75rem;
+}
+
+@media screen and (min-width: 475px) {
+  .section-title-text{
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .section-title-text{
+    font-size: 2.625rem;
+  }
+}
+
+
+
+
+.common-paragraph-text{
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 475px) {
+  .common-paragraph-text{
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .common-paragraph-text{
+    font-size: 1.25rem;
+  }
+}
+
+
+.diminished-text{
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 475px) {
+  .diminished-text{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .diminished-text{
+    font-size: 1.125rem;
+  }
+}
+
+
+
+
+
+.hero-heading{
+  font-size: 2.625rem;
+}
+
+@media screen and (min-width: 475px) {
+  .hero-heading{
+    font-size: 3.75rem;
+  }
+}
+
+
+
+
+
+
+.service-heading{
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .service-heading{
+    font-size: 2rem;
+  }
+}
+
+
+
+.service-paragraph{
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .service-paragraph{
+    font-size: 1.25rem;
+  }
+}
+
+
+
+.testimonial-paragraph{
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .testimonial-paragraph{
+    font-size: 1.125rem;
+  }
+}
+
+.testimonial-message-text{
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 800px) {
+  .testimonial-message-text{
+    font-size: 1rem;
+  }
+}
+
+
+
+
+.testimonial-author-name-heading{
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .testimonial-author-name-heading{
+    font-size: 1.125rem;
+  }
+}
+
+.footer-heading{
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 475px) {
+  .footer-paragraph{
+    font-size: 1.125rem;
+  }
+}
+
+
+
+
+
+
+.hero-subheading{
+  font-size: 1.125rem;
+}
+
+.button-inner-text-style{
+  font-size: 1rem;
+}
+
+
+.generic-paragraph-text{
+  font-size: 1.25rem;
+}
+
+
+@media screen and (min-width: 475px) {
+  .hero-subheading{
+    font-size: 1.5rem;
+  }
+
+  .button-inner-text-style{
+    font-size: 1.25rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+// Typography utility 
+
+.font-weight-bold{
+  font-weight: var(--font-weight-bold);
+}
+.font-weight-semibold{
+  font-weight: var(--font-weight-semibold);
+}
+.font-weight-regular{
+  font-weight: var(--font-weight-regular);
+}
+.font-weight-medium{
+  font-weight: var(--font-weight-medium);
+}
+.font-weight-light{
+  font-weight: var(--font-weight-light);
+}
+
+
+.text-color-white{
+  color: white;
+}
+
+.text-color-black{
+  color: var(--color-black);
+}
+
+.text-color-black-75{
+  color: var(--color-black-75);
+}
+
+.text-color-error{
+  color: var(--color-error-red);
+}
+
+.text-color-success{
+  color: var(--color-success-green);
+}

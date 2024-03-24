@@ -1,0 +1,46 @@
+
+
+
+.projets-gallery{
+  margin-top: calc(var(--margin-unit) * 20);
+}
+
+.projets-gallery-image-container{
+  margin-top: calc(var(--margin-unit) * 6);
+  row-gap: calc(var(--margin-unit) * 4);
+
+  img{
+    width: 100%;
+  }
+}
+
+.view-more-button{
+  margin-top: calc(var(--margin-unit) * 6);
+}
+
+
+@media screen and (min-width: 475px){
+  .projets-gallery-image-container{
+    
+    img{
+      width: clamp(100%, 60vw, 140%);
+    }
+  }
+  
+}
+
+@media screen and (min-width: 800px){
+  .projets-gallery-image-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: calc(var(--margin-unit) * 4);
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .view-more-button{
+    margin-top: calc(var(--margin-unit) * 4);
+  }
+}

@@ -1,0 +1,17 @@
+body{
+  min-height: 200vh;
+  color: var(--color-black);
+}
+
+
+
+.common-button{
+  padding: calc(var(--margin-unit) * 3);
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+a{
+  cursor: pointer;
+}

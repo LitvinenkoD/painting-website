@@ -7,9 +7,9 @@ export default function Testimonials() {
       <div className="testimonials-container | flexbox-container-column">
 
         <div className="testimonial">
-          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>Bair painted my apartment and did some repairs on my front door. He did a great job! He is very reliable and trustworthy, which is very hard to find with contractors. He was punctual, gave me an honest estimate of what he thought needed to be done, even did a few extra things! Very diligent and takes pride in his work. Highly recommend and would definitely hire him again if I need any work done in the apartment.</p>
+          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>Bair and his team did a terrific job repainting my whole studio apartment. He came to see the project and gave me a very reasonable quote (by far the most affordable) within 24 hours. He was incredibly communicative throughout the process, and always on time. The paint and repairs turned out perfectly, and were done within two days. His recommendation on colors and finishes were great. He left the apartment clean and neat! Highly recommend.</p>
           <div className="testimonial-author-section | flexbox-container">
-            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Yoana k.</h6>
+            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Michael I.</h6>
             <div className="testimonial-rating-container | flexbox-container">
               <img src={process.env.PUBLIC_URL + "/images/testimonials/five-stars.png"} alt="image of a 5-star rating" />
             </div>
@@ -17,9 +17,9 @@ export default function Testimonials() {
         </div>
 
         <div className="testimonial">
-          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>Bair painted my apartment on a short timeline and could not have done a better job. I’m very happy with his work and will definitely hire him for all of my future jobs. He’s extremely professional and courteous and I look forward to working together again. Thanks Bair.</p>
+          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>I recently had the pleasure of hiring Paint Lab to transform my apartment, and I couldn't be more delighted with the results. From start to finish, the experience was nothing short of exceptional.Bair, the owner, was  professional and considerate throughout the entire process. He took the time to understand my needs and provided valuable insights to enhance it further. His attention to detail and commitment to customer satisfaction were evident from the beginning until the end.One of the aspects that truly stood out was the competitiveness of the pricing. Despite offering top-notch quality and service, Bair's quote was significantly more competitive than others I had received. This combination of affordability and excellence is a rare find in today's market.The transformation of my apartment is truly remarkable. Bair's team used high-quality paints that have brought new life and vibrancy to every room. Their hard work and efficiency were evident in every brushstroke, and they went above and beyond to ensure that every detail was just right.Overall, I couldn't be happier with the outcome. Thanks to Bair and his team, my apartment now looks amazing, and I couldn't recommend Bair's Painting Company highly enough to anyone in need of professional painting services.</p>
           <div className="testimonial-author-section | flexbox-container">
-            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Jonathan K.</h6>
+            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Nathalie L. D.</h6>
             <div className="testimonial-rating-container | flexbox-container">
               <img src={process.env.PUBLIC_URL + "/images/testimonials/five-stars.png"} alt="image of a 5-star rating" />
             </div>
@@ -27,9 +27,9 @@ export default function Testimonials() {
         </div>
 
         <div className="testimonial">
-          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>I was very pleased with the quality and professionalism of Bair. He was very responsive to my inquiries and he also showed up on time and ready to tackle the project, which he did quite well !!! I am hoping to use his services again in the near future. I would definitely recommend him to anyone that is looking for an interior painter !!!</p>
+          <p className='testimonial-text | testimonial-paragraph text-color-black-75'>It is a rarity in today's workforce to find workers who will take the time to do a superb job for a customer at a competitive price.   Bair and his team genuinely care about the quality of their work and they take enormous pride in producing an exceptional outcome.  Bair and his team have a keen, discerning eye and pay a tremendous amount of attention to detail.  Anyone can slap paint on a wall.  That was our previous experience.   These painters are artists that treat the wall as their canvas.  We had a delightfully positive experience and we are extremely grateful to have found such quality, professional painters at great value.</p>
           <div className="testimonial-author-section | flexbox-container">
-            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Eric-Keith E.</h6>
+            <h6 className='testimonial-author-name | testimonial-author-name-heading font-weight-regular'>Amy H.</h6>
             <div className="testimonial-rating-container | flexbox-container">
               <img src={process.env.PUBLIC_URL + "/images/testimonials/five-stars.png"} alt="image of a 5-star rating" />
             </div>
@@ -43,7 +43,7 @@ export default function Testimonials() {
       <div className="testimonials-message-from-bair | flexbox-container-column">
         <span className="message-image-container"><img src={process.env.PUBLIC_URL + "/images/testimonials/bair-img.png"} alt="" /></span>
         <div className="message-text-container | flexbox-container-column">
-          <p className="message-text | testimonial-paragraph">It’s not only about getting the job done. With responsibility, respect and professionalism, we strive to deliver lasting and high-quality service to New Jersey families. Client satisfaction in the prime goal.</p>
+          <p className="message-text | testimonial-paragraph">It’s not only about getting the job done. With responsibility, respect and professionalism, we strive to deliver lasting and high-quality service to New York and New Jersey families. Client satisfaction is the prime goal.</p>
           <p className="bair-name-text | testimonial-message-text">Bair Sodnomov, founder</p>
         </div>
       </div>

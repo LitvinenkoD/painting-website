@@ -18,6 +18,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-platform-links | flexbox-container">
+        <a className=' | footer-paragraph text-color-white' target="_blank" href="https://maps.app.goo.gl/y3Gbxwqen1XkE6aSA">Google Maps</a>
         <a className=' | footer-paragraph text-color-white' target="_blank" href="https://www.thumbtack.com/nj/fort-lee/handyman/sbv86/service/474418093323231257?utm_medium=android&referrer_pk=474415396231528473&surface=sp">Thumbtack</a>
         <a className=' | footer-paragraph text-color-white' target="_blank" href="https://www.yelp.com/biz/sbv86-fort-lee">Yelp</a>
       </div>
@@ -28,6 +29,7 @@ export default function Footer() {
           <a className=' | footer-paragraph text-color-white' href="tel:+15513161004">551-316-1004</a>
           <a className=' | footer-paragraph text-color-white' href="mailto:sbv8612@gmail.com">sbv8612@gmail.com</a>
         </div>
+        <p className=' | footer-paragraph text-color-white'>57 W 57th St, Office 322, New York, NY 10019</p>
       </div>
 
       <div className="footer-website-author-contact">

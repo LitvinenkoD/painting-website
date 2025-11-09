@@ -80,6 +80,12 @@ html {
   align-items: center;
 }
 
+.flow{
+  >*{
+    margin-bottom: calc(var(--margin-unit) * 3);
+  }
+}
+
 
 
 // Typography

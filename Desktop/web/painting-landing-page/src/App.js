@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App | flow-app">
       <Header className="header"/>
       <Hero />
       <AboutUs className="wrapper" />

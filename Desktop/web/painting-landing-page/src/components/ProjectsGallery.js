@@ -16,19 +16,33 @@ export default function ProjectsGallery() {
         <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-1.png"} alt="" />
         <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-2.png"} alt="" />
         <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-3.png"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-4.png"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-5.png"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-6.png"} alt="" />
         {viewMore && 
         <>
-          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-4.jpg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-5.jpg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-6.jpg"} alt="" />
           <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-7.jpg"} alt="" />
           <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-8.jpg"} alt="" />
           <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-9.jpg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-10.jpg"} alt="" />
+          {/* <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-10.jpg"} alt="" />
           <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-11.jpg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-12.jpg"} alt="" />
+          <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-12.jpg"} alt="" /> */}
         </>}
       </div>
+      {viewMore && 
+        <>
+        <div className="projects-gallery-image-container-2 | flexbox-container-column">
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-1.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-2.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-3.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-4.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-5.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-6.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-7.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-8.jpg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/images/projects-gallery/image-next-9.jpg"} alt="" />
+        </div>
+      </>}
 
       {!viewMore && <Button className="view-more-button" onClick={e => {handleViewMoreClick()}} innerText={'View more'} buttonType={'type-2'} />}
       {viewMore  && <Button className="view-more-button" onClick={e => {handleViewMoreClick()}} innerText={'Show less'} buttonType={'type-2'} />}

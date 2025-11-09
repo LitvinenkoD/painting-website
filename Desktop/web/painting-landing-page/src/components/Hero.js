@@ -18,7 +18,7 @@ export default function Hero() {
 
         <div className="hero-text-content | flexbox-container-column">
           <h1 className='hero-heading | font-weight-medium'>Professional paintwork services</h1>
-          <p className='hero-subheading | font-weight-regular'>High-quality interior and commercial paintwork services and wallpaper installation services from a local contractor based in Fort Lee, NJ</p>
+          <p className='hero-subheading | font-weight-regular'>Premium interior and commercial painting services as well as wallpaper installation from a local contractor in Midtown Manhattan.</p>
           {(deviceType == 'desktop') && <CTA className="hero-cta" innerText={"Get a free quote!"} onClick={() => {scrollToElement('contact-us')}}  />}
         </div>
 
